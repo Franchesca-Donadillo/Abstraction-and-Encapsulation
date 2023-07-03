@@ -23,7 +23,6 @@ class Fan:
     # set power status
     def set_power(self, on, fan_1, fan_2):
         self.__on = on
-        print(f"ON: {fan_1._Fan__on}")
 
     # get for speed
     def get_speed(self):
