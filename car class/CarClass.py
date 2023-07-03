@@ -24,5 +24,5 @@ class Car:
         return self.__speed
     
     #set speed
-    def set_speed(self, speed):
-        self.__speed = speed
+    def set_speed(self):
+        print(self.__speed) 
