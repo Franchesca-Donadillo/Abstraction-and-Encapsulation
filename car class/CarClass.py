@@ -25,4 +25,4 @@ class Car:
     
     #set speed
     def set_speed(self):
-        print(self.__speed) 
+        print("CAR'S CURRENT SPEED: " + str(self.__speed)) 

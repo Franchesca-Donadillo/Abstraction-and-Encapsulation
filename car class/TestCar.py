@@ -11,6 +11,7 @@ car = Car(year_model = int(), make = str(), speed = 0)
 car_A = Car(year_model = 2018, make = "Honda", speed = 0)
 
 # call accelarate 5 times and display current speed
+print("\n" + "="*25 + "\nACCELERATE")
 counter = 0
 
 while counter < 5:
@@ -21,3 +22,12 @@ while counter < 5:
     counter = counter + 1
 
 # call break method 5 times and display current speed
+print("\n" + "="*25 + "\nBREAK")
+counter = 5
+
+while counter > 0:
+    car_A.break_met()
+    car_A.get_speed()
+    car_A.set_speed()
+
+    counter = counter - 1
