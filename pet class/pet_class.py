@@ -15,16 +15,16 @@ class Pet:
         return self.__name
 
     def set_name(self):
-        self.__name
+        print(f"NAME: {self.__name}")
 
     def get_animal_type(self):
         return self.__animal_type
 
     def set_animal_type(self):
-        self.__animal_type
+        print(f"ANIMAL TYPE: {self.__animal_type}")
 
     def get_age(self):
         return self.__age
 
     def set_age(self):
-        self.__age
+        print(f"AGE: {self.__age}")
