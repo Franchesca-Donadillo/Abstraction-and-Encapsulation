@@ -8,7 +8,7 @@ class Fan:
     FAST = 3
 
     # initialize 
-    def __init__(self, on = False, speed = SLOW, radius = 5, color = "blue"):
+    def __init__(self, on = False, speed = SLOW, radius = 5.0, color = "blue"):
               
         # private data of speed, power, radius, and color of the fan
         self.__speed = speed
