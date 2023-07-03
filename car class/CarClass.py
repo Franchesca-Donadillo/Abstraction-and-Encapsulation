@@ -9,13 +9,20 @@ class Car:
         self.__make = make
         self.__speed = speed
 
-    # get speed
+    # accelerate method that adds 5 from the speed data
+    def accelerate(self):
+        self.__speed += 5
+        return self.__speed
+
+    # break method that subtracts 5 from the speed data
+    def break_met(self):
+        self.__speed -= 5
+        return self.__speed
+    
+    # get_speed method to return current speed
     def get_speed(self):
         return self.__speed
     
+    #set speed
     def set_speed(self, speed):
         self.__speed = speed
-        
-    # accelerate method that adds 5 from the speed data
-    # break method that subtracts 5 from the speed data
-    # get_speed method to return current speed
