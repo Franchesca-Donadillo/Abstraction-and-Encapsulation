@@ -21,7 +21,7 @@ class Fan:
         return self.__on
     
     # set power status
-    def set_power(self, on, fan_1, fan_2):
+    def set_power(self, on):
         self.__on = on
 
     # get for speed
