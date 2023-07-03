@@ -2,7 +2,7 @@
 # BSCPE 1-5
 
 # importing class Fan 
-from FanClass import Fan
+from fan_class import Fan
 
 # initialize parameter
 fan = Fan(on = False, speed = int(), radius = float(), color = str())

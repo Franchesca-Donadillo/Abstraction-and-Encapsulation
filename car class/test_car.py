@@ -2,7 +2,7 @@
 # BSCPE 1-5
 
 # import Car class from CarClass
-from CarClass import Car
+from car_class import Car
 
 # initialize parameter
 car = Car(year_model = int(), make = str(), speed = 0)
