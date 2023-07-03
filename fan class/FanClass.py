@@ -16,11 +16,17 @@ class Fan:
         self.__color = color
         self.__on = on
 
-        # get for speed
-        # set speed
-        # get power status
-        # set power status
-        # get radius
-        # set radius
-        # get color
-        # set color
+    # get for speed
+    def get_speed(self):
+        return self.__speed
+    
+    # set speed
+    def set_speed(self, speed):
+        self.__speed = speed
+                    
+    # get power status
+    # set power status
+    # get radius
+    # set radius
+    # get color
+    # set color
