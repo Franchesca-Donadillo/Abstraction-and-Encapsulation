@@ -10,6 +10,6 @@ type = input("Enter what type of animal is your pet: ")
 age = input("Enter the age of your pet: ")
 
 # initialize parameter
-
+pet = Pet(name = str(), animal_type = str(), age = int())
 
 # create object
