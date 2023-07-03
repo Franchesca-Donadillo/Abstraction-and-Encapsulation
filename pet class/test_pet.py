@@ -13,3 +13,10 @@ age = input("Enter the age of your pet: ")
 pet = Pet(name = str(), animal_type = str(), age = int())
 
 # create object
+your_pet = Pet(name, type, age)
+
+# display
+your_pet.set_name()
+your_pet.set_animal_type()
+your_pet.set_age()
+
