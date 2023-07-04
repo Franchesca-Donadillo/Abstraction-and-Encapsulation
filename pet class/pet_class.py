@@ -1,6 +1,9 @@
 # Franchesca Marie U. Donadillo
 # BSCPE 1-5
 
+
+from termcolor import cprint, colored
+
 # create class
 class Pet:
     # initialize
@@ -15,16 +18,16 @@ class Pet:
         return self.__name
 
     def set_name(self):
-        print(f"NAME: {self.__name}")
+        cprint(colored(f"NAME: {self.__name}"), "green")
 
     def get_animal_type(self):
         return self.__animal_type
 
     def set_animal_type(self):
-        print(f"ANIMAL TYPE: {self.__animal_type}")
+        cprint(colored(f"ANIMAL TYPE: {self.__animal_type}"), "green")
 
     def get_age(self):
         return self.__age
 
     def set_age(self):
-        print(f"AGE: {self.__age}")
+        cprint(colored(f"AGE: {self.__age}"), "green")
