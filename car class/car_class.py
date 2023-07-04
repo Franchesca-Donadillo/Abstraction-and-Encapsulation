@@ -1,6 +1,8 @@
 # Franchesca Marie U. Donadillo
 # BSCPE 1-5
 
+from termcolor import cprint, colored
+
 # create car class
 class Car:
     # initialize method
@@ -25,4 +27,4 @@ class Car:
     
     #set speed
     def set_speed(self):
-        print("CAR'S CURRENT SPEED: " + str(self.__speed)) 
+        cprint(colored("CAR'S CURRENT SPEED: " + str(self.__speed)), "blue", attrs=["bold"]) 
