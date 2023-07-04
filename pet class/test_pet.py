@@ -19,11 +19,13 @@ pet = Pet(name = str(), animal_type = str(), age = int())
 your_pet = Pet(name, type, age)
 
 # display
+
+title = pyfiglet.figlet_format("PET INFORMATION", font="slant", width = 500)
 print("\n")
-cprint(colored("="*40),"cyan")
-print("PET INFORMATION".center(40))
+cprint(colored("="*80),"cyan")
+cprint(colored(title), "yellow", attrs=["bold"])
 your_pet.set_name()
 your_pet.set_animal_type()
 your_pet.set_age()
-cprint(colored("="*40), "cyan")
+cprint(colored("="*80), "cyan")
 

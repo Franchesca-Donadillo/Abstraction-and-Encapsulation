@@ -18,16 +18,16 @@ class Pet:
         return self.__name
 
     def set_name(self):
-        cprint(colored(f"NAME: {self.__name}"), "green")
+        cprint(colored(f"NAME: {self.__name}"), "green", attrs=["bold"])
 
     def get_animal_type(self):
         return self.__animal_type
 
     def set_animal_type(self):
-        cprint(colored(f"ANIMAL TYPE: {self.__animal_type}"), "green")
+        cprint(colored(f"ANIMAL TYPE: {self.__animal_type}"), "green", attrs=["bold"])
 
     def get_age(self):
         return self.__age
 
     def set_age(self):
-        cprint(colored(f"AGE: {self.__age}"), "green")
+        cprint(colored(f"AGE: {self.__age}"), "green", attrs=["bold"])
